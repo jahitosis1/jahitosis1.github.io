@@ -7,11 +7,47 @@
 .profile-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 50px;
+  margin-bottom: 50px;
 }
 
 .pfp {
   width: 20%;
   height: 20%;
+}
+
+.project-title {
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.projects-container img {
+  width: 50%;
+  height: 50%;
+}
+
+.projects-container a {
+  justify-content: center;
+  width: 50%;
+  height: 50%;
+}
+
+.skills-and-autobiography {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.skills {
+  width: 50vw;
+}
+
+.autobiography {
+  width: 50vw;
 }
