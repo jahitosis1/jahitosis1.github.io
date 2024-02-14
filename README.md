@@ -1,6 +1,7 @@
 # jahitosis1.github.io
 
 Hitosis, Joshua Meynard A.
+
 BS Computer Science
 
 ### Steps
