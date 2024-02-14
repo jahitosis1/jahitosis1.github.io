@@ -1,3 +1,9 @@
-.flex-container {
+.profile-container {
   display: flex;
+}
+
+.nav-bar {
+  background-color: #333;
+  overflow: hidden;
+  height: 30px;
 }
