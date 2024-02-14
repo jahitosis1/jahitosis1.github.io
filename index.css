@@ -4,6 +4,15 @@
   overflow: hidden;
 }
 
+.nav-bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 .profile-container {
   display: flex;
   flex-wrap: wrap;
@@ -40,7 +49,6 @@
 
 .skills-and-autobiography {
   display: flex;
-  flex-wrap: wrap;
   text-align: center;
 }
 
