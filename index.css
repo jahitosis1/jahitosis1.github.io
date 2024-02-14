@@ -1,9 +1,17 @@
-.profile-container {
-  display: flex;
+.nav-bar {
+  margin: 0px;
+  background-color: black;
+  overflow: hidden;
 }
 
-.nav-bar {
-  background-color: #333;
-  overflow: hidden;
-  height: 30px;
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.pfp {
+  width: 20%;
+  height: 20%;
 }
