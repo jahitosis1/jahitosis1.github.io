@@ -1,3 +1,14 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #032859;
+  color: #fff;
+}
+
+.main-content {
+  margin: 20px;
+}
+
 .nav-bar {
   margin: 0px;
   background-color: black;
@@ -13,16 +24,31 @@
   font-size: 17px;
 }
 
+.profile-header {
+  text-align: center;
+}
+
 .profile-container {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
+  justify-content: center;
+  align-content: center;
   margin-bottom: 50px;
 }
 
 .pfp {
+  border-radius: 10%;
+  border: 3px solid #fff;
   width: 20%;
   height: 20%;
+}
+
+.profile-data {
+  padding: 20px;
+  border: 3px solid #fff;
+  border-radius: 2em;
+  align-content: center;
 }
 
 .project-title {
@@ -31,31 +57,74 @@
 
 .projects-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  align-content: center;
+  gap: 30px;
   margin-top: 50px;
-}
-
-.projects-container img {
-  width: 50%;
-  height: 50%;
+  margin-bottom: 50px;
+  border: 3px solid #fff;
+  border-radius: 2em;
 }
 
 .projects-container a {
+  color: #f2f2f2;
   justify-content: center;
-  width: 50%;
-  height: 50%;
+  text-align: center;
+  width: 500px;
+  height: 450px;
+  padding-top: 30px;
+}
+
+.gregor {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.elbidet {
+  object-fit: contain;
+  width: 350px;
+  height: 350px;
 }
 
 .skills-and-autobiography {
   display: flex;
   text-align: center;
+  gap: 30px;
+}
+
+.skills-and-autobiography div {
+  align-content: center;
+  justify-content: center;
 }
 
 .skills {
+  padding: 20px;
+  border: 3px solid #fff;
+  border-radius: 2em;
   width: 50vw;
+  gap: 10px;
+}
+
+.skills-list {
+  display: flex;
+  gap: 20px;
+}
+
+.skills div {
+  text-align: left;
 }
 
 .autobiography {
+  padding: 20px;
+  border: 3px solid #fff;
+  border-radius: 2em;
   width: 50vw;
+}
+
+.footer {
+  margin: 0px;
+  background-color: black;
+  overflow: hidden;
 }
